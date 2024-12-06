@@ -1,0 +1,19 @@
+.container {
+  max-width: 46rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  transform: translateY(-50%);
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 50rem) {
+  .container {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.container{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskCreated{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--blue);    
+}
+
+.taskDone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--purple);    
+}
+
+.badgeCount{
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    padding:  2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+
+
+.taskList{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+
